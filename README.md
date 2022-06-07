@@ -6,6 +6,7 @@ So there are no user accounts and follow function.
 Check out [LIVE DEMO here!!]()
 
 # Screenshot
+![Capture](https://user-images.githubusercontent.com/103559057/172304366-9e05e6db-4d3c-4f8d-b323-4fada286eee4.PNG)
 
 
 # Tech used
