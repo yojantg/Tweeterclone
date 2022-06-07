@@ -1,0 +1,158 @@
+/*
+common
+***********************/
+
+html,
+body {
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+/*
+Post
+**********************/
+.header {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.header img {
+    width: 12%;
+    margin-right: 15px;
+    margin-left: 8px;
+}
+
+.post_form {
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+.icon {
+    width: 20%;
+}
+
+.icon img {
+    width: 60%;
+}
+
+.post_form input {
+    width:70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    background: #f1ca82;
+}
+
+.post_form textarea {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    height: 80px;
+}
+
+.bottom {
+    display: flex;
+}
+
+#file{
+    background: none;
+}
+
+#tweet {
+    background: lightgreen;
+    width: 30%;
+    border-radius: 7px;
+}
+
+#cancel {
+    border-radius: 7px;
+    text-align: center;
+    width: 57%;
+}
+
+.like img{
+    width: 5%;
+}
+
+.like a{
+    text-decoration: none;
+}
+
+.image {
+    width: 350px;
+}
+
+.image1 {
+    width: 250px;
+}
+
+.posts ul {
+    padding: 0;
+}
+
+.posts li {
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 17px;
+}
+
+.posts li .menu_icon {
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.posts li .menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.posts li .menu a{
+    text-decoration: none;
+}
+
+.posts li .logo {
+    flex-basis: 15%;
+}
+
+.posts li .logo img {
+    width: 65%;
+}
+
+.posts li .logo {
+    flex-basis: 15%;
+}
+
+.posts li .name.body .name {
+    font-weight: bold;
+}
+
+.posts li .name_body .datetime {
+    color: gray;
+}
+
+@media screen and (max-width: 500px) {
+    .posts li .name_body .name {
+        font-size: 20px;
+    }
+}
